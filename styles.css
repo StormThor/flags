@@ -1,0 +1,78 @@
+/* Ísland */
+
+.island {
+    background-color: #DC1E35;
+    width: 250px;
+    height: 180px;
+    position: relative;
+}
+
+.island div{
+    border: white solid 10px;
+    border-color: white;
+}
+
+#tl{
+    background-color: #02529C;
+    width: 70px;
+    height: 70px;
+    border-top: 0px;
+    border-left: 0px;
+    position: absolute;
+}
+
+#tr{
+    background-color: #02529C;
+    width: 140px;
+    height: 70px;
+    border-top: 0px;
+    border-right: 0px;
+    position: absolute;
+    left: 100px;
+}
+
+#bl{
+    background-color: #02529C;
+    width: 70px;
+    height: 70px;
+    border-bottom: 0px;
+    border-left: 0px;
+    position: absolute;
+    top: 100px;
+}
+
+#br{
+    background-color: #02529C;
+    width: 140px;
+    height: 70px;
+    border-bottom: 0px;
+    border-right: 0px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+/* Deutschland */
+
+.deutschland{
+    background-color: #f00;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    top: 20px;
+}
+
+#top{
+    background-color: #000;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+}
+
+#bottom{
+    background-color: #fc0;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+}
